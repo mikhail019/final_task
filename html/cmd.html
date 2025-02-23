@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
    <head>
       <title>Portal for QA</title>
@@ -10,37 +10,36 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
    </head>
    <body>
-      <!--Card-->
+      <!-- Card -->
       <div class="card animated fadeIn">
          <p class="subtitle">Командная строка Windows</p>
          <h3 id="rt-0">Управление файлами и папками</h3>
          <ul>
-            <li>COPY – Копирование файлов в другое место</li>
-            <li>DIR – Изменить каталог</li>
-            <li>CD – Отображение файлов и папок в текущем каталоге</li>
-            <li>MAKEDIR – Создать папку</li>
-            <li>MOVE – Переместить файлы из одной папки в другую</li>
+            <li><code>COPY</code> – Копирует файлы из одного места в другое. Может принимать различные аргументы.</li>
+            <li><code>DIR</code> – Отображает список файлов и папок в текущем каталоге.</li>
+            <li><code>CD</code> – Изменяет текущий каталог на указанный. Например, <code>cd ..</code> для перехода на уровень выше.</li>
+            <li><code>MKDIR</code> – Создает новую папку. Также можно использовать <code>MD</code>.</li>
+            <li><code>MOVE</code> – Перемещает файлы и папки, а также может использоваться для их переименования.</li>
          </ul>
          <h3 id="rt-1">Приложения и процессы</h3>
          <ul>
-            <li>TASKLIST – Список выполняемых задач</li>
-            <li>TASKKILL – Остановить или прекратить выполнение задачи (для остановки задачи используется PID, который можно узнать из TASKLIST).</li>
+            <li><code>TASKLIST</code> – Отображает список выполняемых задач (процессов).</li>
+            <li><code>TASKKILL</code> – Завершает выполнение задачи. Для остановки задачи используется PID, который можно узнать из <code>TASKLIST</code>.</li>
          </ul>
-         <h3 id="rt-3">Системная информация</h3>
+         <h3 id="rt-2">Системная информация</h3>
          <ul>
-            <li>TIME – Выводит или устанавливает системное время</li>
-            <li>DATE – Выводит или устанавливает текущую дату</li>
-            <li>HOSTNAME – Отображает имя компьютера</li>
-            <li>SYSTEMINFO – Отображает информацию о конфигурации компьютера</li>
-            <li>VER – Позволяет просмотреть версию Windows</li>
+            <li><code>TIME</code> – Выводит или устанавливает системное время.</li>
+            <li><code>DATE</code> – Выводит или устанавливает текущую дату.</li>
+            <li><code>HOSTNAME</code> – Отображает имя компьютера.</li>
+            <li><code>SYSTEMINFO</code> – Отображает информацию о конфигурации компьютера.</li>
+            <li><code>VER</code> – Позволяет просмотреть версию Windows.</li>
          </ul>
-         <!-- Ссылка на главную страницу -->
-         <p class="location" align="center">
-            <a href="../index.html">Вернуться на главную страницу</a>
-         </p>
       </div>
-      <!--footer-->
+      <!-- Footer -->
       <footer class="animated fadeIn">
+         <p class="location" align="center">
+            <a href="../index.html">Вернуться на главную</a>
+         </p>
          &copy; 2024. SkyPro
       </footer>
    </body>
